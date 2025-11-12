@@ -1,0 +1,14 @@
+langchain
+langchain-groq
+faiss-cpu
+tiktoken    
+python-dotenv
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+langchain-core 
+langchain-text-splitters 
+langchain-community

@@ -1,0 +1,194 @@
+ACME CORPORATION - ENTERPRISE POLICY HANDBOOK
+Last Updated: November 2024
+
+===========================================
+1. DATA SECURITY & PRIVACY POLICY
+===========================================
+
+Customer Data Protection:
+Customer data must NEVER be shared outside the company network. All customer information including names, emails, phone numbers, purchase history, and payment details are strictly confidential and protected under our data security protocols.
+
+Access Control:
+Only authorized personnel with proper clearance can access customer databases. All access is logged and monitored. Employees must use VPN when accessing customer data remotely and enable two-factor authentication on all company systems.
+
+Data Breach Protocol:
+Any suspected data breach must be reported to the Security Team within 1 hour of discovery. Contact: security@acmecorp.com or call +1-555-SECURE.
+
+===========================================
+2. REMOTE WORK POLICY
+===========================================
+
+Eligibility:
+Full-time employees who have completed their probation period (6 months) are eligible for hybrid work arrangements.
+
+Schedule:
+Employees are allowed to work remotely up to 3 days per week (Monday, Wednesday, Friday are preferred remote days). Remote work requires manager approval and must be scheduled in advance through the HR portal.
+
+Requirements:
+- Must maintain regular working hours (9 AM - 6 PM local time)
+- Must be available during core business hours (10 AM - 4 PM) for meetings
+- Must have reliable internet connection (minimum 50 Mbps)
+- Must maintain a dedicated home office workspace
+- Must attend all mandatory in-person meetings
+
+Equipment:
+Company will provide one laptop and necessary peripherals for remote work. Personal equipment usage requires IT approval.
+
+===========================================
+3. LEAVE & TIME OFF POLICY
+===========================================
+
+Annual Leave:
+- 0-2 years: 15 days paid leave annually
+- 2-5 years: 20 days paid leave annually  
+- 5+ years: 25 days paid leave annually
+
+Sick Leave:
+- 12 days sick leave per year (separate from annual leave)
+- Medical documentation required for absences longer than 3 consecutive days
+- Submit sick leave through HR portal within 24 hours
+
+Parental Leave:
+- Primary caregiver: 16 weeks paid leave
+- Secondary caregiver: 6 weeks paid leave
+- Must notify HR at least 8 weeks before expected date
+
+Leave Request Process:
+Leave requests must be submitted at least 2 weeks in advance except for emergencies. Manager approval required. Maximum 10 consecutive days without VP approval.
+
+Holidays:
+Company observes 10 federal holidays plus 2 floating holidays chosen by employee.
+
+===========================================
+4. CODE OF CONDUCT & ETHICS
+===========================================
+
+Professional Behavior:
+All employees must maintain professional behavior in the workplace. This includes respectful communication, punctuality, appropriate dress code, and collaborative attitude.
+
+Zero Tolerance Policy:
+Harassment of any kind (sexual, verbal, physical, or psychological) will not be tolerated. Discrimination based on race, gender, age, religion, disability, or sexual orientation is strictly prohibited.
+
+Reporting Violations:
+Any violations should be reported to HR immediately at hr@acmecorp.com or through the anonymous hotline: 1-800-ETHICS-1. All reports are investigated confidentially.
+
+Conflict of Interest:
+Employees must disclose any external business interests that may conflict with company interests. Secondary employment requires written approval from management.
+
+===========================================
+5. EXPENSE REIMBURSEMENT POLICY
+===========================================
+
+Submission Process:
+Business expenses must be submitted with original receipts within 30 days through the expense portal. Late submissions may be denied.
+
+Travel Expenses:
+- All business travel requires pre-approval from direct manager
+- Book through company travel portal for automatic approval
+- Economy class for flights under 6 hours, business class for longer flights
+
+Meal Reimbursements:
+- Local travel: $50 per day ($15 breakfast, $20 lunch, $15 dinner)
+- Domestic out-of-state: $75 per day
+- International travel: $100 per day
+- Alcohol not reimbursable unless client entertainment (max $50)
+
+Mileage:
+Personal vehicle usage: $0.65 per mile (current IRS rate). Must use company vehicles when available.
+
+Client Entertainment:
+Requires pre-approval for expenses over $200. Must include business purpose and attendee names.
+
+===========================================
+6. DEVICE & TECHNOLOGY POLICY
+===========================================
+
+Company Devices:
+Company-issued devices (laptops, phones, tablets) must be used primarily for business purposes. Minimal personal use is acceptable but should not interfere with work responsibilities.
+
+Security Requirements:
+- All devices must have company-approved antivirus and endpoint protection
+- Screen lock must activate after 5 minutes of inactivity
+- Devices must not be shared with family members or friends
+- Lost or stolen devices must be reported immediately to IT: it-support@acmecorp.com
+
+Software Installation:
+Only approved software from the company catalog may be installed. IT approval required for any exceptions. Pirated software is strictly prohibited.
+
+Bring Your Own Device (BYOD):
+Personal devices may access company email and calendar only. Company data cannot be stored on personal devices without MDM enrollment.
+
+===========================================
+7. CONFIDENTIALITY & INTELLECTUAL PROPERTY
+===========================================
+
+Non-Disclosure:
+Employees must not disclose any proprietary company information including:
+- Client lists and contact information
+- Pricing strategies and financial data
+- Product roadmaps and development plans
+- Internal processes and methodologies
+- Source code and technical documentation
+
+Intellectual Property:
+All work created by employees during employment belongs to the company. This includes code, designs, documents, inventions, and creative works.
+
+Social Media:
+Employees must not share confidential company information on social media. Personal opinions must be clearly distinguished from company positions.
+
+Post-Employment:
+Confidentiality obligations continue for 2 years after employment ends. Non-compete clauses vary by role and jurisdiction.
+
+===========================================
+8. PERFORMANCE & DEVELOPMENT
+===========================================
+
+Performance Reviews:
+Formal reviews conducted bi-annually (June and December). Continuous feedback encouraged through 1-on-1 meetings.
+
+Professional Development:
+- $2,000 annual budget per employee for training and certifications
+- Conference attendance requires manager approval
+- Internal training programs available through Learning Portal
+
+Career Progression:
+Promotion cycles align with performance review periods. Employees must be in role for minimum 12 months before promotion consideration.
+
+===========================================
+9. WORKPLACE SAFETY & HEALTH
+===========================================
+
+Ergonomics:
+Request ergonomic assessments through HR. Standing desks and ergonomic chairs available upon medical recommendation.
+
+Mental Health:
+Employee Assistance Program (EAP) provides free confidential counseling. Contact: 1-888-EAP-HELP or eap@acmecorp.com
+
+Emergency Procedures:
+Fire evacuation routes posted in all areas. Emergency assembly point: North parking lot. First aid kits located on each floor near elevators.
+
+===========================================
+10. COMPENSATION & BENEFITS
+===========================================
+
+Salary Reviews:
+Annual salary reviews in January. Merit increases based on performance ratings and market conditions.
+
+Health Insurance:
+- Medical, dental, vision coverage starts on day 1
+- Company pays 80% of premiums for employee
+- Dependent coverage available at employee cost
+
+Retirement:
+401(k) with 5% company match. Vesting schedule: 20% per year over 5 years.
+
+Stock Options:
+Eligible employees receive equity grants based on role and performance. 4-year vesting with 1-year cliff.
+
+===========================================
+POLICY ACKNOWLEDGMENT
+===========================================
+
+All employees must acknowledge receipt and understanding of these policies within 30 days of hire date. Questions should be directed to hr@acmecorp.com.
+
+This handbook does not constitute an employment contract. Policies may be updated at management discretion with 30 days notice.
