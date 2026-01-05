@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
-import traceback
+
 from modules.data_loader import load_and_split_text
 from modules.embed_store import create_vector_store
 from modules.retriever import load_vector_store
@@ -44,6 +44,7 @@ async def startup_event():
     try:
         if not os.path.exists("faiss_index"):
             print("📘 Creating vector store from domain data...")
+
             if not os.path.exists("data/enterprise_policies.txt"):
                 raise FileNotFoundError("data/enterprise_policies.txt not found!")
 
@@ -63,7 +64,7 @@ async def startup_event():
         chat_agent = build_chat_agent(retriever)
         print("🤖 Chat agent ready!")
 
-    except Exception as e:
+    except Exception:
         print("❌ Startup failed:")
         traceback.print_exc()
 
@@ -83,17 +84,21 @@ async def query_endpoint(request: QueryRequest):
 
     try:
         print(f"🟢 Received query: {request.query}")
-        answer = chat_agent(request.query)
-        print(f"✅ Answer generated: {answer[:100]}...")
 
-        return QueryResponse(answer=answer, sources=[])
+        # chat_agent NOW returns answer + sources
+        result = chat_agent(request.query)
 
-    except Exception as e:
+        print(f"✅ Answer generated: {result['answer'][:100]}...")
+
+        return QueryResponse(
+            answer=result["answer"],
+            sources=result["sources"]
+        )
+
+    except Exception:
         error_trace = traceback.format_exc()
         print("❌ Exception in /query:\n", error_trace)
-        # Return full trace in response for debugging
         raise HTTPException(status_code=500, detail=error_trace)
-
 
 
 @app.post("/rebuild-index")
@@ -105,20 +110,22 @@ async def rebuild_index():
         docs = load_and_split_text("data/enterprise_policies.txt")
         create_vector_store(docs)
 
-        # Reload chat agent
         vectorstore = load_vector_store()
         retriever = vectorstore.as_retriever(
             search_type="similarity",
             search_kwargs={"k": 3}
         )
+
         chat_agent = build_chat_agent(retriever)
 
         return {"message": "Index rebuilt successfully"}
-    except Exception as e:
+
+    except Exception:
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Index rebuild failed")
 
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
